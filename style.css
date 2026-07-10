@@ -27,13 +27,13 @@ nav{
     padding: 20px 0 16px 140px;
 
 }
-ul li{
+.n-list ul li{
     list-style: none;
     display: flex;
     gap: 15px;
     padding-top: 16px;
 }
-ul li a{
+.n-list ul li a{
     text-decoration: none;
     text-align: center;
     color: #575757;
@@ -89,13 +89,13 @@ header{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding-top: 6%;
-     margin-bottom: 0 !important;
+     margin-bottom: 0 ;
 }
 .speaker-card-bottom{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding-top: 6%;
-     margin-bottom: 0 !important;
+     margin-bottom: 0 ;
 }
 .speaker-card small{
     color: #2563EB;
@@ -124,3 +124,96 @@ header{
     max-width: 600px;
     margin: 0 auto 10px auto;
 }
+/* Pricing section style */
+.pricing-card{
+    text-align: center;
+    padding-top: 45px;
+}
+.p-top{
+    padding-bottom: 20px;
+}
+.p-top p{
+    color: #575757;
+}
+.pricing-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 90px;
+    padding-right: 100px;
+    gap: 40px;
+
+}.p-plan p{
+    text-align: left;
+}
+
+.p-plan{
+    border: 3px solid rgb(11, 11, 65);
+    border-radius: 12px;
+    display: grid;
+    gap: 30px;
+    padding-top: 40px;
+}
+.p-plan h2{
+    text-align: left;
+}
+.p-service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.first-p p{
+     color: #575757;
+}
+.p-plan h5{
+    text-align: left;
+    color: #c4bcbc;
+}
+.second-p p{
+     color: #1D4ED8;
+}
+.pro-card {
+    background-color: #0D1B2A !important;
+    color: white !important;
+}
+.pro-card .first-p p {
+    color: #1D4ED8; 
+}
+.pro-card h5 {
+    color: #c4bcbc;
+}
+.p-service ul {
+    width: 100%;
+    list-style-position: inside;
+    padding-left: 15px; 
+    margin-bottom: 20px;
+}
+.p-service li {
+    text-align: left;
+    margin-bottom: 8px;
+}
+.std-btn{
+    color: #2563EB;
+    height: 35px;
+    width: 200px;
+    border: 1px solid #2563EB;
+    border-radius: 7px;
+    text-align: center;
+}
+.pro-btn{
+    color: white;
+    background-color: #2563EB;
+    height: 35px;
+    width: 200px;
+    border: 1px solid #2563EB;
+    border-radius: 7px;
+}
+.cont-btn{
+    color: #0D1B2A;
+    height: 35px;
+    width: 200px;
+    border: 1px solid #0D1B2A;
+    border-radius: 7px;
+}
+
+                
+
