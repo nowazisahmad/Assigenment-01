@@ -88,13 +88,13 @@ header{
 .speaker-card-top{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding-top: 6%;
+    padding-top: 2%;
      margin-bottom: 0 ;
 }
 .speaker-card-bottom{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding-top: 6%;
+    padding-top: 2%;
      margin-bottom: 0 ;
 }
 .speaker-card small{
@@ -114,16 +114,17 @@ header{
     color: #575757;
     padding: 10px;
 }
-.speaker-card-top .common-div, .speaker-card-bottom .common-div {
-    max-width: 80%;
+.speaker-card-top .common-div, .speaker-card-bottom .common-div{
+    max-width: 90%;
     margin: 0 auto;
-    padding: 10px;
+    padding: 50px 60px 10px 60px;
 }
 .speaker-card-top .common-div img, .speaker-card-bottom .common-div img {
     width: 100%;
     max-width: 600px;
     margin: 0 auto 10px auto;
 }
+
 /* Pricing section style */
 .pricing-card{
     text-align: center;
@@ -141,6 +142,8 @@ header{
     padding-left: 90px;
     padding-right: 100px;
     gap: 40px;
+    padding-bottom: 90px;
+    padding-top: 40px;
 
 }.p-plan p{
     text-align: left;
@@ -198,6 +201,7 @@ header{
     border: 1px solid #2563EB;
     border-radius: 7px;
     text-align: center;
+    margin-bottom: 40px;
 }
 .pro-btn{
     color: white;
@@ -206,6 +210,7 @@ header{
     width: 200px;
     border: 1px solid #2563EB;
     border-radius: 7px;
+    margin-bottom: 40px;
 }
 .cont-btn{
     color: #0D1B2A;
@@ -213,7 +218,52 @@ header{
     width: 200px;
     border: 1px solid #0D1B2A;
     border-radius: 7px;
+    margin-bottom: 40px;
 }
 
-                
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer Style */
+footer{
+    background-color: #0D1B2A;
+}
+ .footer-top{
+    display: flex;
+    justify-content: space-between;
+ }  
+.logo{
+    padding: 50px 100px 20px;
+}
+.social-link{
+    padding:  50px 100px 20px;
+}
+.copyright-s{
+    display: flex;
+    justify-content: space-between;
+    padding:  50px 100px 20px;
+}
+.terms a{
+    text-decoration: none;
+}
+.terms ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
