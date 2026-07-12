@@ -1,1 +1,2 @@
-I build a Dev-Conf 2026 portfolio website. I am added Banner, Speaker, Pricing and Footer section in my website.I want to add an FAQ and a Call to Action section. Please write the code for these sections based on the image of the speakers section I provided to you.
+I build a Dev-Conf 2026 portfolio website. I am added Banner, Speaker, Pricing and Footer section in my website.I want to add a new section above the footer section. Please suggest kind of section I Could add.
+I want to add an FAQ and a Call to Action section. Please write the code for these sections based on the image of the speakers section I provided to you.
